@@ -1,0 +1,59 @@
+body {
+  	background-image: radial-gradient(#F5F5F5 2px, #FFFFF0 2px);
+ 	background-size: 5px 5px;
+}
+table, .load {
+    width: 75%;
+    margin-left:auto; 
+    margin-right:auto;
+    background-color: #F0F8FF;
+}
+
+th {
+    background-color: #87CEFA;
+    color: white;
+    font-size: 20px;
+}
+
+td, th {
+	font-family:  Arial;
+	font-weight: 500;
+	font-size: 18px;
+	border-bottom: 1px solid #ddd;
+	padding: 10px;
+}
+
+tr:hover {
+	background-color: #87CEEB
+}
+
+.load {
+	font-weight: 500;
+	font-size: 20px;
+	font-family: Arial;
+    text-align: center;
+    background-color: #33739E;
+    color: #fff;
+    border-width: 1px;
+    border-radius: 5px;
+    border-style: hidden;
+    border-color: #fff;
+    transition: all 600ms ease-in-out;
+    padding: 10px;
+    
+}
+
+
+.load:hover {
+    background-color: #87CEEB;
+    color: #33739E;
+}
+
+a, a:visited {
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
